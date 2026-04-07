@@ -24,7 +24,7 @@ const DEFAULTS = {
   } as ProcessingOptions,
   brightnessRange: { min: -1, max: 1 },
   resizeSettings: { mode: 'dimensions', dimensionTarget: 'width', maxFileSize: 1024, maxWidth: 1920, maxHeight: 1080 } as ResizeSettings,
-  faceSettings: { level: 30, type: 'blur', padding: 10, sensitivity: 20 } as MosaicSettings,
+  faceSettings: { level: 30, type: 'pixelate', padding: 10, sensitivity: 20 } as MosaicSettings,
   plateSettings: { level: 15, type: 'pixelate', padding: 5, sensitivity: 20 } as MosaicSettings,
 };
 
