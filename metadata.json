@@ -1,0 +1,7 @@
+{
+  "name": "Metadata Stripper & Image Transformer",
+  "description": "A high-end image processing suite designed for privacy. Strip EXIF data, apply AI-powered face/plate blurring, and randomize image signatures for secure uploads.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
